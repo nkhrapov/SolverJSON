@@ -1,3 +1,3 @@
 # SolverJSON
-After compiling and linking snowgoose? COMPI, NUC, OPTITEST you need type 
+After compiling and linking snowgoose? COMPI, NUC, OPTITEST type 
 make
