@@ -81,7 +81,7 @@ int main() {
     std::cout << "Best value found: " << rs.getBound(sub.mBox) << "\n";
 
     std::cout << "\n\n**************\n*************\n************\nJSON OUTPUT:\n";
-    JSONSerializer jsonser;
+    JSONSerializer<double> jsonser;
     std::string js = jsonser.JSONSerialize(&solver, &rs, &sub);
     std::cout << js << "\n";
 
