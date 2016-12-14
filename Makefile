@@ -15,4 +15,4 @@ all: solverJSON.cpp JSONSerializer.hpp
 #	g++ $(EXTRA_INC) -std=c++11 --static -c JSONSerializer.hpp JSONSerializer.cpp
 
 clean:
-	rm *.o *.gch solverJSON
+	rm *.o solverJSON
